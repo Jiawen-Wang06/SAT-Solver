@@ -12,7 +12,7 @@ Example:
 SAT -S1 1000_9x9sudoku45.cnf
 !!notice: when input the file name, the extension need to be included also.
 
-####2. Tips
+#### 2. Tips
 * Each run, the program can only solve one sudoku, the inputfile should contains DIMACS file in cnf format, the content should be rules+sudoku.
 * The input file need to be located in the same directory of the SAT.py file
 * After the Solver find the solution, it will graph the result to the console and ask the user to create a name for the file to store the solution in DIMAS format
